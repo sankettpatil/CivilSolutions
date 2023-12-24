@@ -1,0 +1,33 @@
+/* Footer.module.css */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .socialLinks {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  .socialLink {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+  
+  .socialLink a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contactDetails {
+    margin-bottom: 1rem;
+  }
+  
+  .copyRight {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+  

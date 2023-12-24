@@ -1,0 +1,68 @@
+/* Services.module.css */
+
+.servicesSection {
+    padding: 4rem 0;
+    background-color: #ff6f00; 
+    color: #fff;
+  }
+  
+  .sectionTitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1rem;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .serviceBlock {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 2rem;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    transition: transform 0.3s ease;
+  }
+  
+  .serviceBlock:hover {
+    transform: translateY(-5px); 
+  }
+  
+  .serviceTitle {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .serviceDescription {
+    font-size: 0.95rem;
+    flex-grow: 1; 
+  }
+  
+  .learnMoreLink {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1rem;
+    align-self: start; 
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .servicesGrid {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .servicesGrid {
+      grid-template-columns: 1fr; 
+    }
+  }
+  

@@ -1,0 +1,80 @@
+/* WhyChooseUs.module.css */
+
+.whyChooseUs {
+  background-color: #1c1c1c; 
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.featuresGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 200px; 
+  background-color: #FAEED1; 
+  border-radius: 15px; 
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin: auto; 
+}
+.featureCard:hover {
+  transform: translateY(-5px); 
+}
+
+.featureImage {
+  width: 100%; 
+  height: 150px;
+  object-fit: cover;
+}
+
+.featureContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  flex-grow: 1; 
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.featureTitle {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.featureInfo {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center; 
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+  .featuresGrid {
+    justify-content: space-around;
+  }
+
+  .featureCard {
+    width: 45%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .featureCard {
+    width: 90%; 
+  }
+}
